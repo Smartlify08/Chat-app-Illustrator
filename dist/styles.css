@@ -98,7 +98,7 @@ main {
   /* border: 2px solid; */
   position: absolute;
   top: -12px;
-  left: 107px;
+  left: 112px;
   border-radius: 20px;
 }
 
@@ -195,6 +195,9 @@ main {
   width: 200px;
   align-self: flex-end;
   font-size: 13px;
+  box-shadow: 16px 9px 20px -5px rgba(198, 202, 205, 0.48);
+  -webkit-box-shadow: 16px 9px 20px -5px rgba(198, 202, 205, 0.48);
+  -moz-box-shadow: 16px 9px 20px -5px rgba(198, 202, 205, 0.48);
   color: var(--Desaturated-Dark-Violetchat-on-the-right);
 }
 
@@ -261,6 +264,7 @@ input[type="radio"] {
   border-radius: 20px;
   outline: none;
   border: none;
+  color: var(--Grayish-Blueplaceholdertext);
 }
 
 .position {
